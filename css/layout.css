@@ -1033,14 +1033,14 @@ footer .social-links li:first-child { margin-left: 0; }
 /* ------------------------------------------------------------------ */
 
 .tag {
-  background: #474747 !important;
+  background: #474747;
   color: white;
   display: inline-block;
   padding: 5px 10px 5px 25px;
   border-radius: 90px 30px 30px 90px;
   position: relative;
   margin: 0 10px 10px 0;
-  font-family: helvetica;
+  font-family: 'FontAwesome';
 }
 .tag:after {
   content: '';
