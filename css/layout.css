@@ -1027,3 +1027,28 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+/* ------------------------------------------------------------------ */
+/* j. Skill Tags
+/* ------------------------------------------------------------------ */
+
+.tag {
+  background: #474747 !important;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px 5px 25px;
+  border-radius: 90px 30px 30px 90px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  font-family: helvetica;
+}
+.tag:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: white;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 90px;
+}
