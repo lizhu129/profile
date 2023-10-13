@@ -46,8 +46,8 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+	          <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <!-- <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
             <!-- <li><a class="smoothscroll" href="#contact">Contact</a></li>-->
          </ul> <!-- end #nav -->
@@ -123,6 +123,102 @@
 
    </section> <!-- About Section End-->
 
+
+  <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+    <div class="row">
+
+       <div class="twelve columns collapsed">
+
+          <h1>Check Out Some of My Projects.</h1>
+
+          <!-- portfolio-wrapper -->
+          <div id="portfolio-wrapper" class="bgrid-halves s-bgrid-thirds cf">
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-01" title="">
+                      <img alt="" src="images/portfolio/gitlet.png">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>Version Control System</h5>
+                            <p>Java, Git</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+             <div class="columns portfolio-item">
+                <div class="item-wrap">
+
+                   <a href="#modal-02" title="">
+                      <img alt="" src="images/portfolio/TherapEase.png">
+                      <div class="overlay">
+                         <div class="portfolio-item-meta">
+                        <h5>TherapEase</h5>
+                            <p>Ruby on Rails</p>
+                     </div>
+                      </div>
+                      <div class="link-icon"><i class="icon-plus"></i></div>
+                   </a>
+
+                </div>
+            </div> <!-- item end -->
+
+          </div> <!-- portfolio-wrapper end -->
+
+       </div> <!-- twelve columns end -->
+
+
+       <!-- Modal Popup
+      --------------------------------------------------------------- -->
+
+       <div id="modal-01" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/gitlet.png" alt="" />
+
+        <div class="description-box">
+          <h4>Version Control System</h4>
+          <p>I built a miniaturized version control system in Java. The system leveraged file persistence and cryptographic hashing.
+            The project covers core version control features (e.g. commit, checkout, merge).</p>
+             <span class="categories"><i class="fa fa-tag"></i>Java, Git</span>
+        </div>
+
+          <div class="link-box">
+             <a href="https://github.com/lizhu129/gitlet" target="_blank">GitHub</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-01 End -->
+
+       <div id="modal-02" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="images/portfolio/TherapEase.png" alt="" />
+
+        <div class="description-box">
+          <h4>TherapEase</h4>
+          <p>As a team of 4, we built a Rails web application designed for a better physiotherapy journey.
+            We used Ruby-on- Rails, Pundit, Heroku, and more.
+          </p>
+             <span class="categories"><i class="fa fa-tag"></i>Ruby on Rails, Heroku</span>
+        </div>
+
+          <div class="link-box">
+             <a href="http://www.therapease.pro/" target="_blank">Details</a>
+           <a class="popup-modal-dismiss">Close</a>
+          </div>
+
+      </div><!-- modal-02 End -->
+
+    </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
 
    <!-- Resume Section
    ================================================== -->
@@ -328,102 +424,6 @@
 
    </section> <!-- Resume Section End-->
 
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Projects.</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-halves s-bgrid-thirds cf">
-
-          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/gitlet.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Version Control System</h5>
-                              <p>Java, Git</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/TherapEase.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>TherapEase</h5>
-                              <p>Ruby on Rails</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-            </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/gitlet.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Version Control System</h4>
-			      <p>I built a miniaturized version control system in Java. The system leveraged file persistence and cryptographic hashing.
-              The project covers core version control features (e.g. commit, checkout, merge).</p>
-               <span class="categories"><i class="fa fa-tag"></i>Java, Git</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="https://github.com/lizhu129/gitlet" target="_blank">GitHub</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/TherapEase.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>TherapEase</h4>
-			      <p>As a team of 4, we built a Rails web application designed for a better physiotherapy journey.
-              We used Ruby-on- Rails, Pundit, Heroku, and more.
-            </p>
-               <span class="categories"><i class="fa fa-tag"></i>Ruby on Rails, Heroku</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.therapease.pro/" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
 
    <!-- More-About_Me Section
    ================================================== -->
